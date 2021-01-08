@@ -1,0 +1,114 @@
+@charset "UTF-8";
+button,fieldset,img{border:0}
+a,a:active,a:hover{text-decoration:none}
+a:active,button{background-color:transparent}
+blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,select,td,textarea,th,ul{margin:0;padding:0}
+/*dl,li,menu,ol,ul{list-style:none}*/
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{
+      content:'';
+      content:none}
+button,input,select,textarea{
+      vertical-align:middle
+}
+input::-ms-clear{
+      display:none
+}
+button{
+      cursor:pointer
+}
+body,button,input,select,td,textarea,th{
+      font-size:14px;line-height:1.5;
+      font-family:'Noto Sans KR','돋움',dotum,sans-serif;
+      color:#000;
+      font-weight: normal;
+}
+strong{
+      font-weight: 500;
+}
+.os_mac body,.os_mac button,.os_mac input,.os_mac select,.os_mac td,.os_mac textarea,.os_mac th{
+      font-family:'Noto Sans KR', apple SD gothic neo,'돋움',dotum,sans-serif;
+      font-weight: normal;
+}
+a{
+      color:#000;
+      vertical-align: top;
+}
+address,caption,cite,code,dfn,em,var{
+      font-style:normal;font-weight:400
+}
+article,aside,figcaption,figure,figure img,footer,header,hgroup,nav,object,section,video{
+      display:block
+}
+html{
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+.clearfix:after,.clearfixDiv{
+      display:block;visibility:hidden;content:".";clear:both;text-indent:-9999px;height:0
+}
+*,
+html {
+       -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+*, *:before, *:after {
+      -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+     box-sizing: inherit;
+}
+img{
+      vertical-align: top;
+}
+input:focus,
+button{
+  outline: none;
+  -webkit-appearance: none;
+}
+body,div{
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#responseCheck{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      width: 0;
+      height: 0;
+      background-color: #ffffff;
+}
+input,
+textarea,
+select{
+      -webkit-appearance: none;
+}
+li{
+}
+
+
+
+/* Mobile Global Reset */
+html, body, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea,
+div, dl, dt, dd, ul, ol, li, p, section, article, header, footer, blockquote, th, td, img { margin:0; padding:0; }
+body { -webkit-text-size-adjust:none; }
+li { list-style:none; }
+img, fieldset { border:0; vertical-align:top; }
+table { table-layout:fixed; width:100%; border:0; border-spacing:0; border-collapse:collapse; }
+table img { vertical-align:middle; }
+caption { display:none; }
+th, td { border:0; word-wrap:break-word; }
+legend { visibility:hidden; position:absolute; left:-9999px; top:-9999px; width:0; height:0; line-height:0; }
+button { overflow:visible; padding:0; margin:0; border:0; cursor:pointer; }
+hr.layout { display:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+input, select, textarea { vertical-align:middle; }
+input[type="text"], input[type="password"], input[type="email"], select, textarea { -webkit-border-radius:0; }
+button::-moz-focus-inner { padding:0; }
+input[type="checkbox"] { -webkit-tap-highlight-color:rgba(0, 0, 0, 0); -webkit-focus-ring-color:rgba(0, 0, 0, 0); }
+section, article, header, footer { display:block; }
+pre { color:inherit; line-height:inherit; font-size:inherit; }
+mark { background:none; }

@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+@font-face {
+	font-family:'bb';
+	src: url('../font/BebasNeue Light.ttf');
+}
+
+@font-face {
+	font-family:'bb_R';	
+	src: url('../font/BebasNeue Regular.ttf');
+}
+
+@font-face {
+	font-family:'bb_B';	
+	src: url('../font/BebasNeue Bold.ttf');
+}
+
+@font-face {
+	font-family:'monsori';	
+	src: url('../font/TmonMonsori.ttf');
+}
